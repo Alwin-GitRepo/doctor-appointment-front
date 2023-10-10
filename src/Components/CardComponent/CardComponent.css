@@ -1,0 +1,16 @@
+.card{
+    margin: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    scale: 1.02;
+}
+.card img{
+    transition: .25s ease-in-out;
+}
+.card:hover img{
+    scale: 1.05;
+}
